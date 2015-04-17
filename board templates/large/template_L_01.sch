@@ -401,7 +401,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="132.08" y="170.18" size="4.318" layer="94" font="vector">template</text>
+<text x="132.08" y="170.18" size="4.318" layer="94" font="vector">large template</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
