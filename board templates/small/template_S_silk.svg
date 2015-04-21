@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
-   viewBox="0 0 101.25 168.75"
-   height="1.875in"
-   width="1.125in">
+   viewBox="0 0 108 207"
+   height="2.3in"
+   width="1.2in"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="template_S_silk.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1272"
+     inkscape:window-height="751"
+     id="namedview8984"
+     showgrid="false"
+     inkscape:zoom="1.3985185"
+     inkscape:cx="-28.387182"
+     inkscape:cy="84.375"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer4" />
   <defs
      id="defs4">
     <clipPath
@@ -17,7 +41,8 @@
        id="clipPath4190">
       <path
          d="m 238.56,366.48 0,81.12 135.12,0 0,-81.12 -135.12,0 z"
-         id="path4192" />
+         id="path4192"
+         inkscape:connector-curvature="0" />
     </clipPath>
   </defs>
   <metadata
@@ -33,13 +58,27 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer2">
-    <path
-       id="path4782"
-       d="m 0.045,161.75712 0,6.94788 6.6916228,0"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.09;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     transform="translate(0,-845.36217)"
+     id="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="registration mark"
+     sodipodi:insensitive="true"
+     transform="translate(0,45.000004)">
+    <g
+       id="layer2"
+       transform="translate(0,-6.75)">
+      <path
+         id="path4782"
+         d="m 0.045,161.75712 0,6.94788 6.6916228,0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.09;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
   <g
-     transform="translate(0,-883.61217)"
-     id="layer1" />
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 2"
+     transform="translate(0,45.000004)" />
 </svg>
