@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -29,13 +29,13 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -100,7 +100,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
@@ -1319,6 +1319,82 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <hole x="-4.445" y="0" drill="2.159"/>
 <hole x="4.445" y="0" drill="2.159"/>
 </package>
+<package name="PLCC20_SLIM">
+<smd name="1" x="0" y="4.3" dx="1.524" dy="0.4572" layer="1" rot="R90"/>
+<smd name="2" x="-1.27" y="4.3" dx="1.524" dy="0.4572" layer="1" rot="R90"/>
+<smd name="3" x="-2.54" y="4.3" dx="1.524" dy="0.4572" layer="1" rot="R90"/>
+<smd name="4" x="-4.3" y="2.54" dx="1.524" dy="0.4572" layer="1" rot="R180"/>
+<smd name="5" x="-4.3" y="1.27" dx="1.524" dy="0.4572" layer="1" rot="R180"/>
+<smd name="6" x="-4.3" y="0" dx="1.524" dy="0.4572" layer="1" rot="R180"/>
+<smd name="7" x="-4.3" y="-1.27" dx="1.524" dy="0.4572" layer="1" rot="R180"/>
+<smd name="8" x="-4.3" y="-2.54" dx="1.524" dy="0.4572" layer="1" rot="R180"/>
+<smd name="9" x="-2.54" y="-4.3" dx="1.524" dy="0.4572" layer="1" rot="R270"/>
+<smd name="10" x="-1.27" y="-4.3" dx="1.524" dy="0.4572" layer="1" rot="R270"/>
+<smd name="11" x="0" y="-4.3" dx="1.524" dy="0.4572" layer="1" rot="R270"/>
+<smd name="12" x="1.27" y="-4.3" dx="1.524" dy="0.4572" layer="1" rot="R270"/>
+<smd name="13" x="2.54" y="-4.3" dx="1.524" dy="0.4572" layer="1" rot="R270"/>
+<smd name="14" x="4.3" y="-2.54" dx="1.524" dy="0.4572" layer="1"/>
+<smd name="15" x="4.3" y="-1.27" dx="1.524" dy="0.4572" layer="1"/>
+<smd name="16" x="4.3" y="0" dx="1.524" dy="0.4572" layer="1"/>
+<smd name="17" x="4.3" y="1.27" dx="1.524" dy="0.4572" layer="1"/>
+<smd name="18" x="4.3" y="2.54" dx="1.524" dy="0.4572" layer="1"/>
+<smd name="19" x="2.54" y="4.3" dx="1.524" dy="0.4572" layer="1" rot="R90"/>
+<smd name="20" x="1.27" y="4.3" dx="1.524" dy="0.4572" layer="1" rot="R90"/>
+<wire x1="-4.5" y1="-4.5" x2="4.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-4.5" x2="4.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="3.5" x2="4.5" y2="4.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="4.5" x2="-3.5" y2="4.5" width="0.127" layer="21"/>
+<circle x="0" y="3.96" radius="0.25" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="3.5" x2="-4.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="3.5" x2="-3.5" y2="4.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="3.5" x2="4.5" y2="3.5" width="0.127" layer="21"/>
+</package>
+<package name="OTHERSNAP-IN-SLIM">
+<pad name="SIGNAL" x="0" y="0" drill="1.778" diameter="3.048" rot="R270"/>
+<pad name="GND" x="0" y="-5.08" drill="1.778" diameter="3.048" rot="R270"/>
+<pad name="VCC" x="0" y="5.08" drill="1.778" diameter="3.048" rot="R270"/>
+<text x="0.381" y="7.62" size="1.27" layer="21" rot="R90">VCC</text>
+<text x="-0.381" y="-7.62" size="1.27" layer="21" rot="R270">GND</text>
+<text x="-2.159" y="-3.81" size="1.27" layer="21" rot="R90">SIGNAL</text>
+<wire x1="0" y1="13.335" x2="4.445" y2="17.78" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="13.335" x2="-4.445" y2="8.89" width="0" layer="20" curve="90"/>
+<wire x1="-4.445" y1="8.89" x2="-4.445" y2="-8.89" width="0" layer="20"/>
+<wire x1="-4.445" y1="-8.89" x2="0" y2="-13.335" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="-13.335" x2="4.445" y2="-17.78" width="0" layer="20" curve="-90"/>
+</package>
+<package name="OTHERSNAP-OUT-SLIM">
+<pad name="SIGNAL" x="0" y="0" drill="1.778" diameter="3.048" rot="R270"/>
+<pad name="GND" x="0" y="-5.08" drill="1.778" diameter="3.048" rot="R270"/>
+<pad name="VCC" x="0" y="5.08" drill="1.778" diameter="3.048" rot="R270"/>
+<text x="0.635" y="7.62" size="1.27" layer="21" rot="R90">VCC</text>
+<text x="0.635" y="-11.43" size="1.27" layer="21" rot="R90">GND</text>
+<text x="3.175" y="-3.81" size="1.27" layer="21" rot="R90">SIGNAL</text>
+<wire x1="0" y1="-13.335" x2="-4.445" y2="-17.78" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="-13.335" x2="4.445" y2="-8.89" width="0" layer="20" curve="90"/>
+<wire x1="4.445" y1="-8.89" x2="4.445" y2="8.89" width="0" layer="20"/>
+<wire x1="4.445" y1="8.89" x2="0" y2="13.335" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="13.335" x2="-4.445" y2="17.78" width="0" layer="20" curve="-90"/>
+</package>
+<package name="R1206WIDE">
+<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.127" layer="21"/>
+<smd name="1" x="-1.9558" y="0" dx="1.778" dy="1.905" layer="1"/>
+<smd name="2" x="1.9558" y="0" dx="1.778" dy="1.905" layer="1"/>
+<text x="-1.778" y="1.27" size="1.016" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1.778" y="-2.286" size="1.016" layer="27" ratio="15">&gt;VALUE</text>
+</package>
+<package name="C1206WIDE">
+<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.127" layer="21"/>
+<smd name="1" x="-1.9558" y="0" dx="1.778" dy="1.905" layer="1"/>
+<smd name="2" x="1.9558" y="0" dx="1.778" dy="1.905" layer="1"/>
+<text x="-1.778" y="1.27" size="1.016" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1.778" y="-2.286" size="1.016" layer="27" ratio="15">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ELECTRET">
@@ -2083,14 +2159,17 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <pin name="MODE" x="0" y="-22.86" length="middle" rot="R90"/>
 <pin name="LED9" x="10.16" y="-22.86" length="middle" rot="R90"/>
 <pin name="LED10" x="5.08" y="-22.86" length="middle" rot="R90"/>
-<wire x1="-17.78" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
 <wire x1="17.78" y1="17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
 <text x="-22.86" y="15.24" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="-20.32" y="15.24" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="NC@1" x="-22.86" y="-5.08" length="middle"/>
 <pin name="NC@2" x="-10.16" y="-22.86" length="middle" rot="R90"/>
+<wire x1="-17.78" y1="12.7" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.127" layer="94"/>
+<circle x="0" y="15.24" radius="1.27" width="0.127" layer="94"/>
 </symbol>
 <symbol name="SPDT">
 <wire x1="0" y1="-3.175" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -2708,6 +2787,15 @@ Source: http://www.osram.convergy.de/</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="WIDE" package="C1206WIDE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RES-US" prefix="R" uservalue="yes">
@@ -2736,7 +2824,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206MENTOR2" package="R1206MENTOR2">
+<device name="MENTOR2" package="R1206MENTOR2">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2746,6 +2834,15 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 </technologies>
 </device>
 <device name="" package="R1206ROUND">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="WIDE" package="R1206WIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2938,6 +3035,16 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <technology name=""/>
 </technologies>
 </device>
+<device name="SLIM" package="OTHERSNAP-OUT-SLIM">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="HARWIN">
@@ -2971,6 +3078,16 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 </technologies>
 </device>
 <device name="HOLES_ONLY" package="OTHERSNAP-HOLES">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SLIM" package="OTHERSNAP-IN-SLIM">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
@@ -3022,6 +3139,33 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 </gates>
 <devices>
 <device name="" package="PLCC20">
+<connects>
+<connect gate="G$1" pin="LED1" pad="1"/>
+<connect gate="G$1" pin="LED10" pad="12"/>
+<connect gate="G$1" pin="LED2" pad="20"/>
+<connect gate="G$1" pin="LED3" pad="19"/>
+<connect gate="G$1" pin="LED4" pad="18"/>
+<connect gate="G$1" pin="LED5" pad="17"/>
+<connect gate="G$1" pin="LED6" pad="16"/>
+<connect gate="G$1" pin="LED7" pad="15"/>
+<connect gate="G$1" pin="LED8" pad="14"/>
+<connect gate="G$1" pin="LED9" pad="13"/>
+<connect gate="G$1" pin="MODE" pad="11"/>
+<connect gate="G$1" pin="NC@1" pad="7"/>
+<connect gate="G$1" pin="NC@2" pad="9"/>
+<connect gate="G$1" pin="REFADJ" pad="10"/>
+<connect gate="G$1" pin="REFOUT" pad="8"/>
+<connect gate="G$1" pin="R_HI" pad="6"/>
+<connect gate="G$1" pin="R_LO" pad="4"/>
+<connect gate="G$1" pin="SIG" pad="5"/>
+<connect gate="G$1" pin="V+" pad="3"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SLIM" package="PLCC20_SLIM">
 <connects>
 <connect gate="G$1" pin="LED1" pad="1"/>
 <connect gate="G$1" pin="LED10" pad="12"/>
