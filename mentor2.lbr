@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -815,84 +815,13 @@ TS-003</description>
 <vertex x="2.5654" y="3.937"/>
 </polygon>
 </package>
-<package name="R1206">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
-<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
-<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-<package name="R1206W">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="-0.913" y1="-0.8" x2="0.888" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
-<smd name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
-<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-<package name="C1206">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="C1206K">
-<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1206 reflow solder&lt;/b&gt;&lt;p&gt;
-Metric Code Size 3216</description>
-<wire x1="-1.525" y1="0.75" x2="1.525" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.525" y1="-0.75" x2="-1.525" y2="-0.75" width="0.1016" layer="51"/>
-<smd name="1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
-<text x="-1.6" y="1.1" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.6" y="-2.1" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
-<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
-</package>
-<package name="R1206MENTOR2">
-<description>&lt;b&gt;R1206MENTOR2&lt;/b&gt;
+<package name="1206">
+<description>&lt;b&gt;1206 mentor 2 component&lt;/b&gt;
 &lt;p&gt;&lt;i&gt;1206&lt;/i&gt; - 1206 component&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;1/32&lt;/i&gt; - Can be milled with the 1/32 drill bit&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;MENTOR2&lt;/i&gt; - Designed for the Mentor2 Project&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Individual pad size&lt;/i&gt; - 0.07 x 0.075in&lt;/p&gt;
 &lt;sub&gt;last modified 3/25/2015 by rs&lt;/sub&gt;</description>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.127" layer="21"/>
-<smd name="1" x="-1.651" y="0" dx="1.778" dy="1.905" layer="1"/>
-<smd name="2" x="1.651" y="0" dx="1.778" dy="1.905" layer="1"/>
-<text x="-1.778" y="1.27" size="1.016" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1.778" y="-2.286" size="1.016" layer="27" ratio="15">&gt;VALUE</text>
-</package>
-<package name="C1206-M2">
 <wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
 <wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
@@ -1190,7 +1119,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <hole x="-3" y="3" drill="1.016"/>
 <hole x="3" y="3" drill="1.016"/>
 </package>
-<package name="R1206ROUND">
+<package name="1206ROUND">
 <wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
 <wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
@@ -1375,7 +1304,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="4.445" y1="8.89" x2="0" y2="13.335" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="13.335" x2="-4.445" y2="17.78" width="0" layer="20" curve="-90"/>
 </package>
-<package name="R1206WIDE">
+<package name="1206WIDE">
 <wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
 <wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
@@ -1385,17 +1314,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <text x="-1.778" y="1.27" size="1.016" layer="25" ratio="15">&gt;NAME</text>
 <text x="-1.778" y="-2.286" size="1.016" layer="27" ratio="15">&gt;VALUE</text>
 </package>
-<package name="C1206WIDE">
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.127" layer="21"/>
-<smd name="1" x="-1.9558" y="0" dx="1.778" dy="1.905" layer="1"/>
-<smd name="2" x="1.9558" y="0" dx="1.778" dy="1.905" layer="1"/>
-<text x="-1.778" y="1.27" size="1.016" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1.778" y="-2.286" size="1.016" layer="27" ratio="15">&gt;VALUE</text>
-</package>
-<package name="R1206CUSTOM">
+<package name="1206EXPERIMENT">
 <wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
 <wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
@@ -2226,6 +2145,28 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="THERMISTOR">
+<wire x1="0" y1="-2.54" x2="-1.016" y2="-2.159" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.524" x2="-1.016" y2="-0.889" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="-0.889" x2="1.016" y2="-0.254" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-0.254" x2="-1.016" y2="0.381" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="0.381" x2="1.016" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="1.016" x2="-1.016" y2="1.651" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="1.651" x2="1.016" y2="2.286" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="2.286" x2="0" y2="2.54" width="0.2032" layer="94"/>
+<text x="-5.5626" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="-2.286" y1="-1.778" x2="2.570015625" y2="1.493221875" width="0.254" layer="94"/>
+<wire x1="2.570015625" y1="1.493221875" x2="1.858084375" y2="1.503990625" width="0.254" layer="94"/>
+<wire x1="2.570015625" y1="1.493221875" x2="2.31999375" y2="0.870053125" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="3.311753125" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.524" x2="-2.032" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="1.524" x2="-1.524" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="1.524" x2="-2.032" y2="0.508" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ELECTRET">
@@ -2721,6 +2662,9 @@ Source: http://www.osram.convergy.de/</description>
 </devices>
 </deviceset>
 <deviceset name="JACK" prefix="J">
+<description>&lt;p&gt;0.65mm&lt;/p&gt;
+&lt;p&gt;0.08in - RASM722X made by Switchcraft&lt;/p&gt;
+&lt;p&gt;2.1mm&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="JACK" x="0" y="0"/>
 </gates>
@@ -2780,12 +2724,12 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP" prefix="C" uservalue="yes">
+<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1206" package="C1206">
+<device name="WIDE" package="1206WIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2794,25 +2738,7 @@ Source: http://www.osram.convergy.de/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206K" package="C1206K">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206-M2" package="C1206-M2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WIDE" package="C1206WIDE">
+<device name="" package="1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2823,7 +2749,7 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RES-US" prefix="R" uservalue="yes">
+<deviceset name="RESISTOR" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Resistor (US Symbol)&lt;/b&gt;
 &lt;p&gt;
 Variants with postfix FAB are widened to allow the routing of internal traces</description>
@@ -2831,7 +2757,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1206" package="R1206">
+<device name="MENTOR2" package="1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2840,7 +2766,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206W" package="R1206W">
+<device name="" package="1206ROUND">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2849,7 +2775,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <technology name=""/>
 </technologies>
 </device>
-<device name="MENTOR2" package="R1206MENTOR2">
+<device name="WIDE" package="1206WIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2858,16 +2784,7 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="R1206ROUND">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WIDE" package="R1206WIDE">
+<device name="EXPERIMENTAL" package="1206EXPERIMENT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3072,21 +2989,6 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 </device>
 </devices>
 </deviceset>
-<deviceset name="HARWIN">
-<gates>
-<gate name="G$1" symbol="PIN1X1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HARWINS9101">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="OTHERSNAP-IN">
 <gates>
 <gate name="G$1" symbol="OTHERSNAP-IN" x="7.62" y="0"/>
@@ -3256,6 +3158,22 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <connect gate="G$1" pin="1" pad="3"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THERMISTOR">
+<gates>
+<gate name="G$1" symbol="THERMISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NHQ103B375T10" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
