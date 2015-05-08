@@ -148,10 +148,10 @@
 <wire x1="92.075" y1="0" x2="96.52" y2="4.445" width="0" layer="20" curve="90"/>
 <wire x1="96.52" y1="4.445" x2="96.52" y2="53.975" width="0" layer="20"/>
 <wire x1="96.52" y1="53.975" x2="92.075" y2="58.42" width="0" layer="20" curve="90"/>
-<hole x="4.445" y="53.34" drill="2.9464"/>
+<hole x="4.445" y="53.975" drill="2.9464"/>
 <hole x="4.445" y="4.445" drill="2.9464"/>
 <hole x="92.075" y="4.445" drill="2.9464"/>
-<hole x="92.075" y="53.34" drill="2.9464"/>
+<hole x="92.075" y="53.975" drill="2.9464"/>
 </plain>
 <libraries>
 <library name="mentor2">
