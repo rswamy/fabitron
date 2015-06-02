@@ -27,10 +27,10 @@
      inkscape:window-height="751"
      id="namedview8984"
      showgrid="false"
-     inkscape:zoom="1.3985185"
-     inkscape:cx="-28.387182"
-     inkscape:cy="84.375"
-     inkscape:window-x="0"
+     inkscape:zoom="2.797037"
+     inkscape:cx="33.430458"
+     inkscape:cy="101.66945"
+     inkscape:window-x="2"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer4" />
@@ -43,6 +43,14 @@
          d="m 238.56,366.48 0,81.12 135.12,0 0,-81.12 -135.12,0 z"
          id="path4192"
          inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath6113"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6115"
+         d="m 262.8,614.64 0,165.6 86.4,0 0,-165.6 -86.4,0 z" />
     </clipPath>
   </defs>
   <metadata

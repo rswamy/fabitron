@@ -1533,6 +1533,14 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="10.16" y1="-1.27" x2="10.16" y2="1.27" width="0.127" layer="21"/>
 <wire x1="10.16" y1="1.27" x2="-11.43" y2="1.27" width="0.127" layer="21"/>
 </package>
+<package name="SOLENOID5V">
+<wire x1="-5.7" y1="20.5" x2="5.7" y2="20.5" width="0.127" layer="21"/>
+<wire x1="5.7" y1="20.5" x2="5.7" y2="0" width="0.127" layer="21"/>
+<wire x1="5.7" y1="0" x2="-5.7" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="0" x2="-5.7" y2="20.5" width="0.127" layer="21"/>
+<hole x="3" y="15" drill="1.5"/>
+<hole x="-3" y="5" drill="1.5"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ELECTRET">
@@ -2442,6 +2450,26 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <pin name="1" x="-5.08" y="0" visible="pin" length="middle" direction="pas"/>
 <pin name="2" x="-5.08" y="-2.54" visible="pin" length="middle" direction="pas"/>
+</symbol>
+<symbol name="SOLENOID">
+<pin name="1" x="-2.54" y="5.08" visible="pin" length="short" direction="pas"/>
+<pin name="2" x="-2.54" y="-5.08" visible="pin" length="short" direction="pas"/>
+<wire x1="0" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="8.89" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SOLENOID-5V">
+<text x="-2.54" y="0" size="1.27" layer="94">solenoid
+outline</text>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3589,7 +3617,41 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 </device>
 </devices>
 </deviceset>
+<deviceset name="SOLENOID">
+<gates>
+<gate name="G$1" symbol="SOLENOID" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST-PH_1X2_2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLENOID-5V">
+<gates>
+<gate name="G$1" symbol="SOLENOID-5V" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOLENOID5V">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
