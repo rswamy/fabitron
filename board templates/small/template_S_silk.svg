@@ -30,10 +30,11 @@
      inkscape:zoom="2.797037"
      inkscape:cx="33.430458"
      inkscape:cy="101.66945"
-     inkscape:window-x="2"
+     inkscape:window-x="1"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer4" />
+     inkscape:current-layer="layer4"
+     inkscape:document-units="in" />
   <defs
      id="defs4">
     <clipPath
@@ -51,6 +52,14 @@
          inkscape:connector-curvature="0"
          id="path6115"
          d="m 262.8,614.64 0,165.6 86.4,0 0,-165.6 -86.4,0 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath5808"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5810"
+         d="m 260.4,611.04 0,169.2 91.2,0 0,-169.2 -91.2,0 z" />
     </clipPath>
   </defs>
   <metadata
